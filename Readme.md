@@ -35,7 +35,7 @@
 例如：
 
 ```js
-parseUrl("http://www.bbkedu.com/product/list?id=123456&sort=discount#title");
+parseUrl("http://www.bbkedu.com/product/list?id=123456&sort=discount&name=a&name=b#title");
 ```
 
 期望结果：
@@ -47,7 +47,8 @@ parseUrl("http://www.bbkedu.com/product/list?id=123456&sort=discount#title");
   path: "/product/list",
   params: {
     id: "12345",
-    sort: "discount"
+    sort: "discount",
+    name: ["a", "b"]
   },
   hash: "title"
 }
