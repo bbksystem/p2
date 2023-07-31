@@ -30,7 +30,7 @@
 ];
 ```
 
-### 题目二：请用 `javascript` 实现一个函数 `parseUrl(url)`，将一段 url 字符串解析为 Object。
+### 题目二：请用 `javascript` 实现一个函数 `parseUrl(url)`，将一段 url 字符串解析为 Object。代码处理逻辑请加上相应的注释。
 
 例如：
 
